@@ -363,3 +363,4 @@ F:\About Class\WebDevelopment\@Practice@\ISPYZU2\bin\Debug\net5.0\packages\Micro
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\bin\Debug\net5.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\tools\RoslynLatest\csi.exe.config
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\bin\Debug\net5.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\tools\RoslynLatest\vbc.exe.config
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\bin\Debug\net5.0\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\tools\RoslynLatest\VBCSCompiler.exe.config
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\bin\Debug\net5.0\packages\EntityFramework.6.4.4\tools\netcoreapp3.0\any\ef6.runtimeconfig.json
