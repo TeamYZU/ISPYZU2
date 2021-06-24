@@ -9,17 +9,50 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ISPYZU2</a>
+                <!--<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ISPYZU2</a>-->
+                <img src="~/css/YZU logo.png" class="navbar-brand" alt="ISPYZU" width="80" height="80" asp-area="" asp-controller="Home" asp-action="Index">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <li class="nav-item navbar-nav">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="News">News</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Courses">Courses</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Department">Department</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gallery">Gallery</a>
+                        </li>
+                        <!--
+                        <li>
+                            <a class="nav-link text-dark" href="@Url.Action("Index","Login", "Home")">Sign In</a>
+                           </li>
+                        -->
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success bg-dark my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </li>
+
+                        <li>
+                            <form class="form-inline">
+                                <button class="btn btn-outline-success bg-light my-2 my-lg-0" style="margin-left:5px;" asp-area="Identity" asp-controller="Account" asp-action="Login">Sign In</button>
+                            </form>
                         </li>
                     </ul>
                 </div>
@@ -33,8 +66,8 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - ISPYZU2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="container" style="text-align:center">
+            &copy; Implemented by Team-V 2021 | All rights reserved.
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

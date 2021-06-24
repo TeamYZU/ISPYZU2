@@ -22,6 +22,25 @@ namespace ISPYZU2.Controllers
         {
             return View();
         }
+        public ActionResult News()
+        {
+            return View();
+        }
+        public ActionResult Courses()
+        {
+            return View();
+        }
+        public ActionResult Department()
+        {
+            return View();
+        }
+        public ActionResult Gallery()
+        {
+            return View();
+        }
+        
+        
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
