@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Students Login";
+    Layout = "~/Areas/Identity/Pages/_LoginLayout.cshtml";
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -10,7 +11,7 @@
     <div class="col-md-4">
         <section>
             <form id="account" method="post">
-                <h5>Use Student ID & password to login.</h5>
+                <p><b>Use Student ID & password to login.</b></p>
                 <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
@@ -38,7 +39,7 @@
                     <p>
                         <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
                     </p>
-                    
+
                 </div>
             </form>
         </section>
