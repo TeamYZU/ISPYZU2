@@ -20,7 +20,7 @@ namespace ISPYZU2.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("DefaultConnection")));
 
-                services.AddDefaultIdentity<ISPYZU2User>(options => options.SignIn.RequireConfirmedAccount = true)
+                services.AddDefaultIdentity<ISPYZU2User>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<ApplicationDbContext>();
             });
         }

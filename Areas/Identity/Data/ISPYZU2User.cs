@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ISPYZU2.Areas.Identity.Pages.Account;
 using Microsoft.AspNetCore.Identity;
+using static ISPYZU2.Areas.Identity.Pages.Account.LoginModel;
 
 namespace ISPYZU2.Areas.Identity.Data
 {

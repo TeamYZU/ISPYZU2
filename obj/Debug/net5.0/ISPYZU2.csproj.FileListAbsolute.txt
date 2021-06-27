@@ -419,7 +419,6 @@ F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\scopedcss\bund
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\ISPYZU2.TagHelpers.input.cache
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\ISPYZU2.TagHelpers.output.cache
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\ISPYZU2.RazorCoreGenerate.cache
-F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Login\Views\Home\Index.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Views\Home\Courses.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Views\Home\Department.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Views\Home\Gallery.cshtml.g.cs
@@ -454,7 +453,6 @@ F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Id
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
-F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Login\Views\_ViewStart.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Views\Home\SignIn.cshtml.g.cs
 F:\Others - No use\ISPYZU2\bin\Debug\net5.0\packages\EntityFramework.5.0.0\tools\Redirect.config
 F:\Others - No use\ISPYZU2\bin\Debug\net5.0\packages\EntityFramework.5.0.0\tools\Redirect.VS11.config
@@ -917,3 +915,6 @@ F:\Others - No use\ISPYZU2\obj\Debug\net5.0\ISPYZU2.dll
 F:\Others - No use\ISPYZU2\obj\Debug\net5.0\ref\ISPYZU2.dll
 F:\Others - No use\ISPYZU2\obj\Debug\net5.0\ISPYZU2.pdb
 F:\Others - No use\ISPYZU2\obj\Debug\net5.0\ISPYZU2.genruntimeconfig.cache
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AdminLogin.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\TeacherLogin.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_LoginLayout.cshtml.g.cs
