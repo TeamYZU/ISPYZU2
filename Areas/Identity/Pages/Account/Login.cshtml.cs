@@ -44,7 +44,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            public string IDs { get; set; }
+            public string ID { get; set; }
 
             [Required]
             [DataType(DataType.Password)]
@@ -53,7 +53,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
             [Display(Name = "Remember me?")]
             public bool RememberMe { get; set; }
         }
-
+        /*
         public async Task OnGetAsync(string returnUrl = null)
         {
             if (!string.IsNullOrEmpty(ErrorMessage))
@@ -70,7 +70,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
 
             ReturnUrl = returnUrl;
         }
-
+        */
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
@@ -79,7 +79,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
         
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(Input.IDs, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(Input.ID, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
