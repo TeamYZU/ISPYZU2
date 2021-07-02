@@ -918,3 +918,7 @@ F:\Others - No use\ISPYZU2\obj\Debug\net5.0\ISPYZU2.genruntimeconfig.cache
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AdminLogin.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\TeacherLogin.cshtml.g.cs
 F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_LoginLayout.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+F:\About Class\WebDevelopment\@Practice@\ISPYZU2\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs

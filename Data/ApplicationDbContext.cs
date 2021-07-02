@@ -27,7 +27,7 @@ namespace ISPYZU2.Data
         {
 
         }
-        public DbSet<InputModel> AuthLogin { get; set; }
+        //public DbSet<InputModel> AuthLogin { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

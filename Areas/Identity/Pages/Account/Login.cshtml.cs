@@ -44,7 +44,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
-            public string ID { get; set; }
+            public string IDs { get; set; }
 
             [Required]
             [DataType(DataType.Password)]
@@ -79,9 +79,7 @@ namespace ISPYZU2.Areas.Identity.Pages.Account
         
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.ID, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(Input.IDs, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
